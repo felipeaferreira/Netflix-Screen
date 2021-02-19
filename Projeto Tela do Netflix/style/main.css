@@ -1,0 +1,125 @@
+:root{
+    --vermelho: #e50914;
+    --preta: #141414;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos Base*/
+
+body {
+    background: var(--preta);
+    font-family: "Circular Std Book";
+    color: white;
+    
+
+}
+
+
+header .container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 12px;
+    color: var(--vermelho);
+    font-family: "Bebas Neue";
+    font-size: 50px;
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+
+/*série principal*/
+
+.serie-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/JavaScript/Projeto Tela do Netflix/img/sabrina.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.serie-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.titulo {
+    margin-top: 38px;
+    background-image: "/JavaScript/Projeto Tela do Netflix/img/sabrina_logo.png";
+
+  
+
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    margin-left: 20px;
+    
+    padding: 15px 30px;
+    font-family: "Circular Std Book";
+    font-size: 18px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+ 
+
+
+}
+
+.container{
+    margin-left:20px;
+    margin-right: 9px;
+}
+
+.serie-principal .container{
+    width: 70%;
+}
+
+.box-filmes{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
